@@ -41,12 +41,12 @@ const FormProceso = () => {
 
     return (
         <div className="contain-form" >
-            <h1>Crea un nuevo Proceso</h1>
+            <h1 className='font-bold text-2xl' >Crea un nuevo Proceso</h1>
             <div className='formContain' >
                 <form className="form" onSubmit={handleSubmit} >
-                    <input type="text" value={formData.NombreProceso}  name="NombreProceso" onChange={handleChange} placeholder="Ingresa el nombre del proceso"  />
-                    <input type="number" value={formData.MemoriaRequired === 0 ? '': formData.MemoriaRequired} name='MemoriaRequired' onChange={handleChange} placeholder="Ingresa la memoria requerida" />
-                    <input type="text" value={formData.Duration === 0 ? '': formData.Duration} name='Duration' onChange={handleChange} placeholder="Duración" />
+                    <input type="text" className='shadow-2xl' value={formData.NombreProceso}  name="NombreProceso" onChange={handleChange} placeholder="Ingresa el nombre del proceso"  />
+                    <input type="number" className='shadow-' value={formData.MemoriaRequired === 0 ? '': formData.MemoriaRequired} name='MemoriaRequired' onChange={handleChange} placeholder="Ingresa la memoria requerida" />
+                    <input type="text" className='shadow-' value={formData.Duration === 0 ? '': formData.Duration} name='Duration' onChange={handleChange} placeholder="Duración" />
                     <button type="submit">Crear Proceso</button>
                 </form>
             </div>

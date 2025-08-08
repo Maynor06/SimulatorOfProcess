@@ -1,12 +1,12 @@
 .contain-form{
     display: flex;
-    background-color: #F5F5DC;
+    background-color: #F8F8FF;
     flex-direction: column;
-    width: 60%;
+    width: 550px;
     text-align: center;
     border-radius: 15px;
     padding: 15px;
-    height: 50vh;
+    height: 400px;
     gap: 1.5rem;
 }
 
@@ -29,14 +29,14 @@
 
 .form input{
     height: 50px;
-    background-color: bisque;
+    background-color: white;
     border-radius: 10px;
     padding: 10px;
 }
 
 .form button {
     height: 40px;
-    background-color: aquamarine;
+    background-color: #d7c8ff;
     width: 150px;
     border-radius: 10px;
     margin-left: auto;
